@@ -1,0 +1,62 @@
+body{
+    background-color: #60a9ff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.container {
+    display: flex;
+    display: inline-flex;
+    align-content: center;
+    padding: 70px;
+}
+
+.card {
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid #e1f1ff    
+}
+
+
+button{  
+     padding: 2%;
+    color: #60a9ff;
+    background-color: #e1f1ff;
+    border-color: #48aaff;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    padding: 2%;
+    color: #e1f1ff;
+    background-color: #48aaff;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.product-price{
+    color: #016ff9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pricing-header{
+    color: #888888;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-color {
+    color: #016ff9;
+    border: 5px solid #e1f1ff;
+    margin: 0;
+    height: 5vh;
+    border-width: 2px;
+    padding-left: none;
+    padding-right:none;
+    border-radius: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
