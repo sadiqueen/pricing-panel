@@ -6,14 +6,20 @@ body{
     justify-items: center;
 }
 
+h1{
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
+}
+
 .container {
     display: flex;
     display: inline-flex;
-    align-content: center;
-    padding: 70px;
+   padding-left: 50px;
 }
 
 .card {
+    justify-content: center;
     padding-bottom: 20px;
     text-align: center;
     background-color: aliceblue;
@@ -59,4 +65,4 @@ button:hover {
     padding-right:none;
     border-radius: 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    } 
